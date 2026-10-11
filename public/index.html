@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kabarin — Kabar dari warga, untuk warga</title>
+  <meta name="description" content="Portal berita komunitas: baca, tulis, dan diskusikan kabar terkini.">
+  <meta name="theme-color" content="#f6f3ee">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%2315141a'/%3E%3Cpath d='M20 16v32M20 34l16-18M26 30l14 18' stroke='%23d9ff43' stroke-width='6' stroke-linecap='round' fill='none'/%3E%3Ccircle cx='46' cy='18' r='4' fill='%23ff4d2e'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script>try{var t=localStorage.getItem('kb-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body>
+  <div id="progress" class="progress"></div>
+  <header id="nav" class="nav-wrap"></header>
+  <main id="view" tabindex="-1"></main>
+  <nav id="tabbar" class="tabbar" aria-label="Navigasi utama"></nav>
+  <div id="overlay-root"></div>
+  <div id="toasts" class="toasts" aria-live="polite"></div>
+  <button id="toTop" class="to-top" aria-label="Kembali ke atas">↑</button>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

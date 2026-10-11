@@ -1,0 +1,6 @@
+Folder ini untuk gambar milikmu (opsional).
+
+logo.png -> taruh logo di sini (PNG transparan, persegi, min 128x128).
+            Kalau tidak ada, otomatis dipakai logo bawaan "K".
+
+Foto berita yang diupload lewat halaman "Tulis" disimpan otomatis di folder /uploads.

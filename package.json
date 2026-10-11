@@ -1,0 +1,20 @@
+{
+  "name": "kabarin",
+  "version": "1.0.0",
+  "description": "Kabarin - portal berita komunitas (Express + SQLite + vanilla JS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server.js",
+    "dev": "node --watch --disable-warning=ExperimentalWarning server.js",
+    "seed": "node seed.js --force"
+  },
+  "license": "MIT",
+  "engines": { "node": ">=22.13" },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2"
+  }
+}
